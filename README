@@ -1,8 +1,11 @@
-Note I have had issues with Git and the chapter07 directory. Something in
-it does not allow Git to see what is in there...
 
 Notes on Learning Chef book
 ===========================
+
+Chapter 7
+---------
+
+Issues with Git thinking that there is a sub repo somewhere and not allowing me to save the repo as chapter7
 
 Chapter 9
 ---------
@@ -13,3 +16,9 @@ Chapter 10
 ----------
 
 Could not complete the exercises as per the issue in the previous chapter
+
+Chapter 11
+----------
+
+Could not run kitchen converge on the zero node as there is a download that is no longer present: https://omnitruck.chef.io/install.sh
+
