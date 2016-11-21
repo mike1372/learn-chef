@@ -24,3 +24,14 @@ suites:
     run_list:
       - role[webserver]
     attributes:
+
+  - name: dev
+    provisioner:
+      client_rb:
+        environment: dev
+    driver:
+      network:
+      - ["private_network", {ip: "192.168.33.16"}]
+    run_list:
+      - role[webserver]
+    attributes:
