@@ -22,3 +22,4 @@ Chapter 11
 
 Could not run kitchen converge on the zero node as there is a download that is no longer present: https://omnitruck.chef.io/install.sh
 
+OK I have tested this again as at 21nd Novenber 2016 it is now owrking...
