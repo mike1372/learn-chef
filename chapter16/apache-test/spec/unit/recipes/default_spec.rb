@@ -7,7 +7,7 @@
 require 'spec_helper'
 
 describe 'apache-test::default' do
-  let (:chef_run) { ChefSpec::Runner.new.converge(described_recipe) }
+  let (:chef_run) { ChefSpec::ServerRunner.new(platform: 'centos', version: '6.5').converge(described_recipe) }
 
   it 'Installs apache2' do
     expect(chef_run).to install_package('httpd')
